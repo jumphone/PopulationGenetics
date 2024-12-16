@@ -1,2 +1,3 @@
 # PopulationGenetics
-PopulationGenetics
+Contact: jumphone@outlook.com
+
