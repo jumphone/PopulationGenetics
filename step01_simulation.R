@@ -89,8 +89,8 @@ P.H2G1=OUT$H2G1
 P.TAG=OUT$TAG
 
 set.seed(123)
-X=rnorm(N)
-Y=rnorm(N)
+X=rnorm(OUT$N)
+Y=rnorm(OUT$N)
 XLIM=c(min(X)-0.5,max(X)+0.5)
 YLIM=c(min(Y)-0.5,max(Y)+0.5)
 plot(0,0,xlim=XLIM,ylim=YLIM,col='white')
