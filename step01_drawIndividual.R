@@ -103,30 +103,36 @@ StatFreq(OUT)
 
 set.seed(123)
 P.OUT=GetP0(10,c(0.9,0.1),c('A','a'))
-StatFreq(P.OUT)
+
 F1.OUT=Cross(P.OUT)
-StatFreq(F1.OUT)
 F2.OUT=Cross(F1.OUT)
-StatFreq(F2.OUT)
 F3.OUT=Cross(F2.OUT)
-StatFreq(F3.OUT)
 F4.OUT=Cross(F3.OUT)
-StatFreq(F4.OUT)
 F5.OUT=Cross(F4.OUT)
+
+StatFreq(P.OUT)
+StatFreq(F1.OUT)
+StatFreq(F2.OUT)
+StatFreq(F3.OUT)
+StatFreq(F4.OUT)
 StatFreq(F5.OUT)
+
+
 
 set.seed(123)
 P.OUT=GetP0(1000,c(0.9,0.1),c('A','a'))
-StatFreq(P.OUT)
+
 F1.OUT=Cross(P.OUT)
-StatFreq(F1.OUT)
 F2.OUT=Cross(F1.OUT)
-StatFreq(F2.OUT)
 F3.OUT=Cross(F2.OUT)
-StatFreq(F3.OUT)
 F4.OUT=Cross(F3.OUT)
-StatFreq(F4.OUT)
 F5.OUT=Cross(F4.OUT)
+
+StatFreq(P.OUT)
+StatFreq(F1.OUT)
+StatFreq(F2.OUT)
+StatFreq(F3.OUT)
+StatFreq(F4.OUT)
 StatFreq(F5.OUT)
 
 
